@@ -10,4 +10,9 @@ If you scan the QR from your mobile, the puppeter app will take control of your 
 
 So in conclusion, puppeteer will be interfacing between your whatsapp and botpress.
 
+The main core app is a botpress clean project, but in the initialization phase it will Fork another process with the pupetter app.
+And uses NodeJS process for Inter Procees Communication.
+
+Best regards,
+
 
