@@ -1,0 +1,76 @@
+{
+  "name": "robmont",
+  "version": "1.0.0",
+  "description": "Robmont cloud platform",
+  "repository": "https://github.com/GoogleCloudPlatform/nodejs-getting-started",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "botpress start",
+    "e2e": "repo-tools test deploy",
+    "test": "repo-tools test app",
+    "cover": "nyc --cache npm test; nyc report --reporter=html"
+  },
+  "author": "Cristian Villalba",
+  "contributors": [
+    {
+      "name": "Jon Wayne Parrott",
+      "email": "jonwayne@google.com"
+    },
+    {
+      "name": "Jonathan Simon",
+      "email": "jbsimon@google.com"
+    },
+    {
+      "name": "Jason Dobry",
+      "email": "jdobry@google.com"
+    },
+    {
+      "name": "Ace Nassri",
+      "email": "anassri@google.com"
+    }
+  ],
+  "cloud-repo-tools": {
+    "requiresKeyFile": true,
+    "requiresProjectId": true,
+    "test": {
+      "app": {
+        "args": [
+          "app.js"
+        ],
+        "msg": "Hello, world!"
+      }
+    }
+  },
+  "license": "Apache-2.0",
+  "semistandard": {
+    "globals": [
+      "after",
+      "afterEach",
+      "before",
+      "beforeEach",
+      "describe",
+      "it"
+    ]
+  },
+  "dependencies": {
+    "@botpress/channel-web": "^10.31.0",
+    "@botpress/nlu": "^10.34.0",
+    "botpress": "^10.35.1",
+    "express": "4.16.2",
+    "jsdoc-api": "^4.0.2",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "knex": "0.14.4",
+    "pg": "7.4.1",
+    "puppeteer": "^1.7.0"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "2.2.1",
+    "ava": "0.25.0",
+    "supertest": "3.0.0"
+  },
+  "engines": {
+    "node": "8.x.x"
+  }
+}

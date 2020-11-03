@@ -1,0 +1,89 @@
+[
+  {
+    "id": "text-ZF41OC",
+    "formData": {
+      "text": "tu vida?",
+      "variations": [
+        "que tal tu vida?",
+        "que pasa che?",
+        "todo tranquilo?"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-31T15:20:30.629Z"
+  },
+  {
+    "id": "text-AGLvjq",
+    "formData": {
+      "text": "en estos momentos estoy a full, te puedo ayudar?",
+      "variations": [
+        "perdon pero me agarraste ocupado, te puedo ayudar?",
+        "perdon pero estoy complicado, en que te puedo ayudar?"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-31T15:20:55.044Z"
+  },
+  {
+    "id": "text-0dVyf8",
+    "formData": {
+      "text": "chau nos vemos",
+      "variations": [
+        "abrazo",
+        "abrazo de gol",
+        "saludos",
+        "chau"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-31T15:21:27.223Z"
+  },
+  {
+    "id": "text-BTJy2A",
+    "formData": {
+      "text": "con gusto te ayudo",
+      "variations": [
+        "seguro, pasame mas info",
+        "si no hay drama",
+        "si dale"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-31T15:21:56.676Z"
+  },
+  {
+    "id": "text-qu4kRl",
+    "formData": {
+      "text": "mmm eso va a estar complicado",
+      "variations": [
+        "lo vemos mañana te parece?",
+        "mejor lo vemos mañana",
+        "me contacto mañana con vos"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-31T15:22:32.711Z"
+  },
+  {
+    "id": "text-rnla8X",
+    "formData": {
+      "text": "hola!",
+      "variations": [
+        "hola, todo bien por suerte",
+        "hola como vaaa",
+        "todo bien por suerte",
+        "buenas buenas",
+        "que tal",
+        "hola"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-08-31T15:32:57.270Z"
+  }
+]

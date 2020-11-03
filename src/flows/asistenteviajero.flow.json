@@ -1,0 +1,83 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "d44cd5add4",
+      "name": "entry",
+      "onEnter": [
+        "say #!text-rnla8X"
+      ],
+      "onReceive": [
+        "say #!text-ZF41OC"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "ocupado"
+        }
+      ]
+    },
+    {
+      "id": "6684772eba",
+      "name": "ocupado",
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('cambio')",
+          "node": "cambio"
+        },
+        {
+          "condition": "event.nlu.intent.is('viajar')",
+          "node": "viajar"
+        }
+      ],
+      "onEnter": [
+        "say #!text-AGLvjq"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "760ebd0838",
+      "name": "cambio",
+      "next": [
+        {
+          "condition": "true",
+          "node": "finalizar"
+        }
+      ],
+      "onEnter": [
+        "say #!text-qu4kRl"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "c6b856e27a",
+      "name": "viajar",
+      "next": [
+        {
+          "condition": "true",
+          "node": "finalizar"
+        }
+      ],
+      "onEnter": [
+        "say #!text-BTJy2A"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "3d5c0a821e",
+      "name": "finalizar",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!text-0dVyf8"
+      ],
+      "onReceive": null
+    }
+  ]
+}

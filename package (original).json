@@ -1,0 +1,26 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "RobMont",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 6.1 < 11.0"
+  },
+  "dependencies": {
+    "@botpress/channel-web": "^10.31.0",
+    "@botpress/nlu": "^10.34.0",
+    "botpress": "^10.31.0",
+    "jsdoc-api": "^4.0.2",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+	"express": "4.16.2",
+    "puppeteer": "^1.7.0"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "ghost-sync": "botpress ghost-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Botpress, Inc.",
+  "license": "Botpress Proprietary License"
+}
